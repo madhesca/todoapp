@@ -212,7 +212,7 @@
 //test the code
 
 //36 security
- //server app get / above this
+ //in server app get /  - above this codes
  //creta a func passwordProtected with 3 param req,res,next
  //insert this function in the app get
  //console.log and test
@@ -224,3 +224,53 @@
  // if did not, send a 401 status and send message
  //get the password via console of the req.headers
  //get the value and paste to the arg in the if statment ***
+ //instead of inserting this to every route we make in once via app use
+
+ //next is handle the malicious input in the form
+ //install sanitize-html and import
+ //in app post sanitize what th user types 
+ //first make a variable that alter text that body with 2 args
+ //1st is the inputed text
+ //2nd is object that has 2 property with empy array and empty object as values
+ //properties are allowedTags and allowedAttributes
+//also do this in the update action
+
+
+//37noe for mac
+
+//38 pushing thorugh online
+//imstalled git
+//git config name and email
+//google for heroku and sign up/sign in
+//in heroku, create new app//
+//type a unique app name//
+//deploy using heroku git by installing heroku cli
+//next next next
+//connect the command line to heroku
+
+//in cmd type in heroku login and type the credentials
+//their will be a brwser for u to log in
+//and we can now send to heroku
+//heroku need to know our main file which is server.js
+//create Procfile file and type web: node server.js
+//in server make the port dynamic
+//in cmd, git init to create repo
+//setup .gitignore abd type node_modules
+//in cmd, git add -A
+//git commit -m "our first commit"
+//heroku git:remote -a name_of_the_unique_app
+//git push heroku master
+//in heroku, open app
+//and we're dooonneeee!!
+
+
+
+
+
+
+
+
+
+
+
+
